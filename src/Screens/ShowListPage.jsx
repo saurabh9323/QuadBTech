@@ -28,7 +28,7 @@ const ShowListPage = () => {
       <div className="obsolute logo font-bold text-white text-3xl text-center tracking-widest">
         MOVIES
       </div>
-      <div className=" bottom-0 shows_section p-3 flex flex-wrap gap-5 items-center overflow-auto w-full">
+      <div className=" bottom-0 shows_section p-3 flex flex-wrap gap-5 items-center overflow-auto w-full justify-center">
         {shows?.map((s) => (
           <button
             key={s.show.id}
